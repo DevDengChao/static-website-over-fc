@@ -1,0 +1,17 @@
+ROSTemplateFormatVersion: '2015-09-01'
+Transform: 'Aliyun::Serverless-2018-04-03'
+Resources:
+  service: # service name
+    Type: 'Aliyun::Serverless::Service'
+    function: # function name
+      Type: 'Aliyun::Serverless::Function'
+      Properties:
+        Handler: index.html # this actually not works in custom runtime environment
+        Runtime: custom
+        CodeUri: './' # the whole folder
+      Events:
+        http: # trigger name
+          Type: HTTP # function compute will be triggered by http requests
+          Properties:
+            AuthType: ANONYMOUS
+            Methods: ['GET'] # GET is enough for this sample
