@@ -4,7 +4,7 @@ This sample project shows how to deploy your static website onto Aliyun's Functi
 
 ### How to use?
 
-Execute `fun-local-start.cmd` script or run `fun local start`, the function compute will listen port 8000.
+Execute `fun-local-start.cmd` script or run `fun local start`, then your website is running inside Fc now.
 
 Let's check it out at http://localhost:8000/2016-08-15/proxy/service/function
 
