@@ -1,0 +1,9 @@
+#! /bin/bash
+
+sudo npm install --registry=https://registry.npm.taobao.org
+
+echo "node version: $(node --version)"
+echo "npm version: $(npm --version)"
+echo "http-server version: $(http-server --version)"
+
+npm run start
