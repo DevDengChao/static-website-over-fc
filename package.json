@@ -4,7 +4,7 @@
   "description": "A sample project shows how to deploy static website project onto Aliyun's function compute",
   "private": false,
   "scripts": {
-    "start": "http-server ./ --port=9000"
+    "start": "node server.js"
   },
   "keywords": [
     "Static website",
@@ -13,6 +13,6 @@
   "author": "邓超 (2325690622@qq.com)",
   "license": "Apache 2.0",
   "dependencies": {
-    "http-server": "^0.12.3"
+    "express": "^4.17.1"
   }
 }
