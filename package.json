@@ -1,0 +1,18 @@
+{
+  "name": "static-website-over-fc",
+  "version": "1.0.0",
+  "description": "A demo used to show how to deploy static website project on Aliyun function compute",
+  "private": true,
+  "scripts": {
+    "start": "http-server ./ --port=9000"
+  },
+  "keywords": [
+    "Static website",
+    "Function compute"
+  ],
+  "author": "邓超 (2325690622@qq.com)",
+  "license": "none",
+  "dependencies": {
+    "http-server": "^0.12.3"
+  }
+}
